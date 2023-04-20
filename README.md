@@ -6,9 +6,17 @@ IMJENSE was proposed by Ruimin Feng and Dr. Hongjiang Wei. It applies implicit n
 * PyTorch 1.10.2  
 * h5py, scikit-image, tqdm  
 ## 2. Files descriptions
- data  
-  - knee_slice.h5: The FastMRI knee data used in the paper  
-data/macaque_brain_slice: The macaque brain data used in the paper  
-data/human_brain_slice.h5: The human brain data used in the paper  
-data/lesion_slice.h5: The lesion data used in the paper
-
+```text
+└── IMJENSE/  
+      ├── run_demo.py                     # Code to demo how to use IMJENSE for reconstruction  
+      ├── IMJENSE.pyc                     # Perform IMJENSE reconstruction
+      ├── model_siren.pyc                 # SIREN model
+      ├── utils.pyc                       # Some supporting functions
+      └── data/  
+          ├── knee_slice.h5               # The FastMRI knee data 
+          ├── macaque_brain_slice.h5      # The macaque brain data
+          ├── human_brain_slice.h5        # The human brain data
+          └── lesion_slice.h5             # The lesion data
+```
+## 3. Usage
+You can run "run_demo.py" to test the performance of IMJENSE 
