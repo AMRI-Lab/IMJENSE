@@ -31,9 +31,9 @@ if not os.path.exists(outpath):
 Nchl,Nrd,Npe = data_cpl.shape
 #%% Parameter settings
 Rx = 1   #acceleration rate along the x dimension
-Ry = 4   #acceleration rate along the y dimension
+Ry = 5   #acceleration rate along the y dimension
 num_ACSx = Nrd   #ACS region along the x dimension
-num_ACSy = 8    #ACS region along the y dimension
+num_ACSy = 24    #ACS region along the y dimension
 w0 = 30  #hyperparameter w0 mentioned in the paper
 lamda = 3   #hyperparameter lamda mentioned in the paper
 fn=lambda x: utils.normalize01(np.abs(x))
