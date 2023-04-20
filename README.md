@@ -5,4 +5,4 @@ IMJENSE was proposed by Ruimin Feng and Dr. Hongjiang Wei. It applies implicit n
 Python 3.9.7  
 PyTorch 1.10.2  
 h5py, scikit-image, tqdm  
-
+# 2. Files descriptions
