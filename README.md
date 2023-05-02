@@ -7,7 +7,7 @@ To run IMJENSE with SIREN network, you should install:
 * PyTorch 1.10.2  
 * h5py, scikit-image, tqdm  
 To run IMJENSE with hash encoding for a faster implementation, you should also install:     
-* Tiny-Cuda-nn  
+* [tiny-cuda-nn](https://github.com/NVlabs/tiny-cuda-nn)  
 ## 2. Files descriptions
 ```text
 └── IMJENSE/  
