@@ -11,8 +11,10 @@ IMJENSE was proposed by Ruimin Feng and Dr. Hongjiang Wei. It applies implicit n
 ## 2. Files descriptions
 ```text
 └── IMJENSE/  
-      ├── run_demo.py                     # Code to demo how to use IMJENSE for reconstruction  
+      ├── run_demo.py                     # Code to demo how to use IMJENSE for reconstruction
+      ├── run_demo_hash                   # Code to demo how to use IMJENSE with hash encoding for a faster implementation
       ├── IMJENSE.pyc                     # Perform IMJENSE reconstruction
+      ├── IMJENSE_hash.pyc                # Perform IMJENSE reconstruction with the hash encoding
       ├── model_siren.pyc                 # SIREN model
       ├── utils.pyc                       # Some supporting functions
       └── data/  
@@ -22,4 +24,4 @@ IMJENSE was proposed by Ruimin Feng and Dr. Hongjiang Wei. It applies implicit n
           └── lesion_slice.h5             # The lesion data
 ```
 ## 3. Usage
-You can run "run_demo.py" to test the performance of IMJENSE 
+You can run "run_demo.py" to test the performance of IMJENSE and run "run_demo_hash.py" to test the performance of IMJENSE with hash encoding 
