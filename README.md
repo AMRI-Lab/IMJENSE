@@ -3,10 +3,10 @@ This repository contains the PyTorch implementations of our manuscript "IMJENSE:
 IMJENSE was proposed by Ruimin Feng and Dr. Hongjiang Wei. It applies implicit neural representation to the parallel MRI reconstruction.  
 ## 1. Environmental Requirements  
 To run IMJENSE with SIREN network, you should install:  
-To run IMJENSE with hash encoding for a faster implementation, you should also install:  
 * Python 3.9.7  
 * PyTorch 1.10.2  
-* h5py, scikit-image, tqdm    
+* h5py, scikit-image, tqdm 
+To run IMJENSE with hash encoding for a faster implementation, you should also install:     
 * Tiny-Cuda-nn  
 ## 2. Files descriptions
 ```text
