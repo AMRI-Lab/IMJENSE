@@ -14,7 +14,8 @@ IMJENSE was proposed by Ruimin Feng and Dr. Hongjiang Wei. It applies implicit n
 ```text
 └── IMJENSE/  
       ├── run_demo.py                     # Code to demo how to use IMJENSE for reconstruction
-      ├── run_demo_hash                   # Code to demo how to use IMJENSE with hash encoding for a faster implementation
+      ├── run_demo_hash.py                # Code to demo how to use IMJENSE with hash encoding for a faster implementation
+      ├── parameter_tuning.py             # Code to demo how to use the Bayesian optimization method for hyperparameter tuning
       ├── IMJENSE.pyc                     # Perform IMJENSE reconstruction
       ├── IMJENSE_hash.pyc                # Perform IMJENSE reconstruction with the hash encoding
       ├── model_siren.pyc                 # SIREN model
